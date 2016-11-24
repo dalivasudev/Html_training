@@ -1,104 +1,114 @@
+<!doctype html>
 <html>
 <head>
 	<title>Assignment 1-The First Web Site</title>
-	<link rel="stylesheet" type="text/css" href=" css\website.css">
-	<link rel="stylesheet" type="text/css" href=" css\960_12_col.css">
+	<meta charset="UTF-8" />
+	<!--internal css-->
+	<link rel="stylesheet" type="text/css" href=" css\website.css" />
+	<!--external css-->
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href=" css\960_12_col.css" />
+	<link rel="stylesheet" href="../css/external/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body class="parent">
+
 	<!--header with logo and navigation-->
 	<header class="header">
 		<div id="logo">
-			<a href="#">
-				<img src="../images/logo.png" alt="logo"  height="100px"/>
-			</a>
+			
+			<a href="index.html"><img src="../images/logo.png" alt="logo" title="NEW YORK" /></a>
+			<h3>New York</h3>
 		</div>	
 		<div id="menu">
 			<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Features</a></li>
-				<li><a href="#">Pages</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Shop</a></li>
-				<li><a href="#">Short Codes</a></li>
-			</ul>
-		</nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Pages</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Short Codes</a></li>
+				</ul>
+			</nav>
 		</div>	
 	</header>
 
+	<!-- column hero unit -->
+	
+	<figure class="contain">
+		<img id="hero" src="../images/img4.jpg" alt="thanks" />
+	</figure>
+	
+	<!-- 2 columns with  3 rows -->
+	<section class="grid container_12">
+		<section class="grid_6">
+			<h3>Introduction</h3>
+			<p>
+				New York is a state in the northeastern United States, and is the 27th-most extensive, fourth-most populous, and seventh-most densely populated U.S. state. New York is bordered by New Jersey and Pennsylvania to the south and Connecticut, Massachusetts, and Vermont to the east. The state has a maritime border in the Atlantic Ocean with Rhode Island, east of Long Island, as well as an international border with the Canadian provinces of Quebec to the north and Ontario to the west and north. The state of New York, with an estimated 19.8 million residents in 2015, is often referred to as New York State to distinguish it from New York City, the state's most populous city and its economic hub.New York was the only colony to not vote for independence, as the delegates were not authorized to do so. New York then endorsed the Declaration of Independence on July 9, 1776.
+			</p>
+		</section>
+		<section class="grid_6">
+			<article class="rows">
+				<h3>Population</h3>
+				<p>
+					With an estimated population of 8.55 million in 2015,[8] New York City is the most populous city in the United States and the premier gateway for legal immigration to the United States
+				</p>
+			</article>
+			<article class="rows">
+				<h3>Government</h3>
+				<p>
+					The Government of New York embodies the governmental structure of the State of New York as established by the New York State Constitution. It is composed of three branches: executive, legislative, and judicial.The Governor is the State's chief executive and is assisted by the Lieutenant Governor. Both are elected on the same ticket. Additional elected officers include the Attorney General, and the Comptroller. The Secretary of State, formerly an elected officer, is currently appointed by the Governor.
+				</p>
+			</article>
+			<article class="rows">
+				<h3>Transportaion</h3>
+				<p>
+					New York has one of the most extensive and one of the oldest transportation infrastructures in the country. Engineering challenges posed by the complex terrain of the state and the unique infrastructural issues of New York City brought on by urban crowding have had to be overcome perennially. 
+				</p>
+			</article>
+		</section>
+	</section>
+
+
+
 	<!-- 3 column section-->
-	<div class="main container_12" >
+	<section class="main container_12" >
 		<article>
 			<section class="grid_4">
 				<img src="../images/img1.jpg" alt="stationary" class="image" />
+				<h3>Geography</h3>
 				<p>
-					Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.
+					New York covers 54,555 square miles (141,300 km2) and ranks as the 27th largest state by size.[3] The Great Appalachian Valley dominates eastern New York and contains the Lake Champlain Valley as its northern half and the Hudson Valley as its southern half within the state. The rugged Adirondack Mountains, with vast tracts of wilderness, lie west of the Lake Champlain Valley. 
 				</p>
 			</section>
 			<section class="grid_4">
 				<img src="../images/img2.jpg" alt="books" class="image"/>
+				<h3>Climate</h3>
 				<p>
-					Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.
+					In general, New York has a humid continental climate, though under the Köppen climate classification, New York City has a humid subtropical climate.[65] Weather in New York is heavily influenced by two continental air masses: a warm, humid one from the southwest and a cold, dry one from the northwest.
 				</p>
 			</section>
 			<section class="grid_4">
 				<img src="../images/img3.jpg" alt="shopping bags"  class="image"/>
+				<h3>Major Cities</h3>
 				<p>
-					Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.
+					There are 62 cities in New York. The largest city in the state and the most populous city in the United States is New York City, which comprises five counties (each coextensive with a borough): Bronx, New York County (Manhattan), Queens, Kings County (Brooklyn), and Richmond County (Staten Island).
 				</p>
 			</section>
 		</article>
-	</div>
-
-	<!-- column hero unit -->
-	<div id="check">
-		<figure>
-			<img  id="hero" src="../images/img4.jpg" alt="thanks" />
-		</figure>
-	</div>
-
-	<!-- 2 columns with  3 rows -->
-	<div class="grid container_12">
-		<section class="grid_6">
-			<p>Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.</p>
-		</section>
-		<section class="grid_6">
-			<article class="rows">
-				<p>
-				Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.
-				</p>
-			</article>
-			<article class="rows">
-				<p>
-					Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.
-				</p>
-			</article>
-			<article class="rows">
-					<p>
-					Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.
-				</p>
-			</article>
-		</section>
-	</div>
-
-
-
-
+	</section>
 
 	<!--footer-->
-	<div id="foot">
-	<footer>
-		<p id="copyright">Copyrights &copy 2014 All Rights Reserved by Canvas Inc.&copy </p>
+	
+	<footer id="foot">
+		<p id="copyright">Copyrights &copy 2014 All Rights Reserved by Dali Vasudev. </p>
 		<ul id="icons">
-			<li><a href="#"><img src="../images/fb.png" alt="fb" title="Facebook"></a></li>
-			<li><a href="#"><img src="../images/twitter.jpg" alt="twitter" title="twitter"></a></li>
-			<li><a href="#"><img src="../images/insta.jpg" alt="fb" title="instagram"></a></li>
-			<li><a href="#"><img src="../images/tumblr.png" alt="tumblr" title="tumblr"></a></li>
-
-			</ul>	
-		</footer>	
-	</div>
-
+			<li><a href="#"><i class="fa fa-facebook" aria-hidden="true" title="Facebook"></i></a></li>
+			<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn"></i></a></li>
+			<li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true" title="Whatsapp"></i></a></li>
+			<li><a href="#"><i class="fa fa-instagram" aria-hidden="true" title="Instagram"></i></a></li>
+		</ul>	
+	</footer>
 </body>
 </html>

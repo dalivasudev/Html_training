@@ -13,10 +13,10 @@ li a {
 	margin-right: 20px;
 	text-decoration: none;
 }
-div section h3 {
+section section h3 {
 	font-family: 'Gloria Hallelujah', cursive;
 }
-div article section h3 {
+section article section h3 {
 	font-family: 'Baloo Bhaina', cursive;
 }
 .contain {
@@ -90,7 +90,7 @@ li a:hover {
 	display: inline;
 	float: right;
 	color: white;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Permanent Marker', cursive;
 }
 
 #logo img {
